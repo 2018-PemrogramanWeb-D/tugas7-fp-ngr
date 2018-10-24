@@ -109,7 +109,7 @@
 		  <div class="col-lg-3">
 				<div class="card text-white">
 					<img class="card-img" src="http://pre09.deviantart.net/141d/th/pre/f/2016/115/a/8/osu__logo_by_shadowthegod-da05j13.png" alt="Rhytmn" />
-					<a class="card-link" href="##">
+					<a class="card-link" href="rhytmn">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Rhytmn Games</h2>
 					</div>
@@ -148,7 +148,7 @@
 		  </div>
 		</div>
 	</div>
-    <a href="submain.php">submain</a>
+    <a href="rhytmn">submain</a>
     <a href="setting.php">pengaturan akun</a>
     <p>About Us: mhd.Fadly, Nadhif Haikal, raden bimo rizky</p>
 	</div>

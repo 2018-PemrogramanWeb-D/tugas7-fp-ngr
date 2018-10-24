@@ -48,12 +48,12 @@
 </style>
 <body>
 	<div class="container-top">
-		<?php include 'header.php';?>
+		<?php include '../header.php';?>
 	</div>
 
 
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-		<?php include 'navbar.php';?>
+		<?php include '../navbar.php';?>
 	</nav>
 	<div class="container">
 		 <div class="page-header">

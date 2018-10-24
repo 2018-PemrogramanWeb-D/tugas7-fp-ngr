@@ -7,8 +7,8 @@ echo '
 		  </div>
 		  <div class="col align-self-end">
 			  <div class="float-right">
-				  <a href="login.php">Login</a> ||
-				  <a href="signin.php">Sign In</a>
+				  <a href="../../tugas7-fp-ngr/login.php">Login</a> ||
+				  <a href="../../tugas7-fp-ngr/signin.php">Sign In</a>
 			  </div>
 		  </div>
 		</div>
