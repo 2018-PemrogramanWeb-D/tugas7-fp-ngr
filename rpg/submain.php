@@ -46,59 +46,57 @@
 		background: rgb(0,0,0,0.5);
 	}
 </style>
-
 <body>
 	<div class="container-top">
-		<?php include 'header.php';?>
+		<?php include '../header.php';?>
 	</div>
 
 
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-		<?php include 'navbar.php';?>
+		<?php include '../navbar.php';?>
 	</nav>
 	<div class="container">
 		 <div class="page-header">
-			<h1>Example Page Header</h1>      
+			<h1>Role Playing Game (RPG)</h1>      
 		 </div>
-		 <p>This is some text.</p>      
-		 <p>This is another text.</p>
+
 		<div class="row">
-		  <div class="col-lg-3">
+			<div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://img.freepik.com/free-vector/collection-of-people-doing-sport-silhouette_23-2147553215.jpg?size=338c&ext=jpg" alt="sports"/>
-					<a class="card-link" href="sport">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Sports</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://supermario.nintendo.com/assets/img/home/mario.png" alt="Platformer" />
-					<a class="card-link" href="platform">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Platformer</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://image.freepik.com/free-vector/human-silhouettes-pack_23-2147734613.jpg" alt="Simulation" />
-					<a class="card-link" href="simulation">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Simulation Games</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://media.istockphoto.com/vectors/black-symbols-role-playing-games-vector-id165695181" alt="RPG" />
-					<a class="card-link" href="rpg">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Role Playing Games</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
@@ -108,48 +106,47 @@
 		<div class="row">
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="http://pre09.deviantart.net/141d/th/pre/f/2016/115/a/8/osu__logo_by_shadowthegod-da05j13.png" alt="Rhytmn" />
-					<a class="card-link" href="rhytmn">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Rhytmn Games</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://cdn5.vectorstock.com/i/1000x1000/00/79/karate-fighting-vector-10310079.jpg" alt="fighting" />
-					<a class="card-link" href="fighting">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Fighting Games</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img src="https://image.freepik.com/free-vector/business-strategy_23-2147504341.jpg" alt="strategy" />
-					<a class="card-link" href="strategy">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Strategy Games</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://cdn2.vectorstock.com/i/1000x1000/42/66/target-gun-classic-paper-shooting-target-vector-16794266.jpg" alt="shooting" />
-					<a class="card-link" href="shooter">
+					<img class="card-img" src="logo.ico" alt="Placeholder" />
+					<a class="card-link" href="##">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Shooter</h2>
+						<h2 class="card-text">Placeholder</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		</div>
+		<br>
 	</div>
-    <a href="setting.php">pengaturan akun</a>
-    <p>About Us: mhd.Fadly, Nadhif Haikal, raden bimo rizky</p>
-	</div>
+ 
 </body>
 </html>
