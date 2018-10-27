@@ -48,12 +48,12 @@
 </style>
 <body>
 	<div class="container-top">
-		<?php include 'header.php';?>
+		<?php include '../header.php';?>
 	</div>
 
 
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-		<?php include 'navbar.php';?>
+		<?php include '../navbar.php';?>
 	</nav>
 	<div class="container">	
 		<table class="table table-striped">
@@ -64,7 +64,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="6"><img src="logo.ico" /></a></td>
+					<td rowspan="6"><img src="http://tokyologic.info/wp/wp/wp-content/uploads/2015/01/maimai-640x270.jpg" /></a></td>
 				</tr>
 				<tr><td>Nama</td><td>maimai</td></tr>
 				<tr><td>Developer</td><td>Sega</td></tr>

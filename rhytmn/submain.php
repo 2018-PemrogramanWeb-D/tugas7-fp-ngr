@@ -63,7 +63,7 @@
 		<div class="row">
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Maimai"/>
+					<img class="card-img" src="http://tokyologic.info/wp/wp/wp-content/uploads/2015/01/maimai-640x270.jpg" alt="Maimai"/>
 					<a class="card-link" href="maimai.php">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Maimai</h2>
