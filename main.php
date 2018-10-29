@@ -1,5 +1,9 @@
 ﻿<!DOCTYPE html>
+<?php
+	include("./init.php");
+	include("./search_fun.php");
 
+?>
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
@@ -27,7 +31,7 @@
 	</div>
 
 
-	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary justify-content-between">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
 		<?php include 'navbar.php';?>
 	</nav>
 	<div class="container">
