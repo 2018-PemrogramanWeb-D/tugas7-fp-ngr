@@ -1,0 +1,31 @@
+﻿
+body{
+	background: #00ccff;
+	
+}
+.container{
+	background: white;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.card{
+	width:250px;
+	height:150px;
+}
+
+
+.card-link{
+	color:white;
+}
+.card-link:hover{
+	color:white;
+}
+
+.ovl{
+	opacity: 0;
+	transition: 0.25s;
+}
+.ovl:hover {
+	opacity: 1;
+	background: rgb(0,0,0,0.5);
+}
