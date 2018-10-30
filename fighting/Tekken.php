@@ -34,21 +34,23 @@
 		<table class="table table-striped">
 			<thead class="thead-dark">
 				<tr>
-					<th colspan="3">Maimai</th>
+					<th colspan="3">Tekken</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td rowspan="6"><img src="https://vignette.wikia.nocookie.net/logopedia/images/6/67/Tekken-7-logo-wallpaper.jpg/revision/latest?cb=20140719134807" /></a></td>
 				</tr>
-				<tr><td>Nama</td><td>maimai</td></tr>
-				<tr><td>Developer</td><td>Sega</td></tr>
-				<tr><td>publisher</td><td>bandai</td></tr>
-				<tr><td>Platform</td><td>Arcade</td></tr>
-				<tr><td>Release Date</td><td>2012</td></tr>
+				<tr><td>Nama</td><td>Tekken</td></tr>
+				<tr><td>Developer</td><td>Bandai Namco</td></tr>
+				<tr><td>publisher</td><td>Bandai Namco</td></tr>
+				<tr><td>Platform</td><td>Arcade, XBOX one,PC, PS4</td></tr>
+				<tr><td>Release Date</td><td>5-Juni-2015</td></tr>
 			</tbody>
 		</table>
-		<p>Review game, game ini mahal, awas ketagihan ntar nyesel</p>
+		<p>Review game,<br>Game Series tekken dikenal sebagai salah satu game fighting terbaik, dengan mekanisme yang hamper disesuaikan dengan tubuh. Maksud disesuaikan dengan tubuh adalah setiap tombol di kontroler seperti PS4, di atur sesuai dengan anggota tubuh, misalnya tombol persegi untuk tangan kanan, tombol segitiga untuk tangan kiri, tombol lingkaran untuk kaki kanan, tombol silang atau ‘x’ untuk kaki kiri. Ada juga variasi tombol seperti ‘x’ dan lingkaran, yang akan mengeluarkan gerakan tertentu<br>
+		Pada series yang ke tujuh ini, tekken membawakan cerita kazuya dan heihachi,ayahnya. Dalam cerita ini, seluk beluk keluarga heihachi dan kazuya dijelaskan. Story-telling di game ini jauh lebih baik daripada game-game sebelumnya karena pada kali ini, cerita yang dipaparkan tidak hanya melalui ilustrasi, tetapi dikemas dalam bentuk film. <br>
+		</p>
 		
 		<table  class="table table-striped">
 			<thead class="thead-dark">
@@ -58,11 +60,11 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="4"><h1>8</h1></td>
+					<td rowspan="4"><h1>7</h1></td>
 				</tr>
-				<tr><td>Graphics</td><td>6/10</td></tr>
-				<tr><td>GamePlay</td><td>10/10</td></tr>
-				<tr><td>Story</td><td>0/0</td></tr>
+				<tr><td>Graphics</td><td>7/10</td></tr>
+				<tr><td>GamePlay</td><td>8/10</td></tr>
+				<tr><td>Story</td><td>7/10</td></tr>
 			</tbody>
 		</table>
 		<br>

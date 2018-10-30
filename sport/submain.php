@@ -47,10 +47,10 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
+					<img class="card-img" src="https://vignette.wikia.nocookie.net/captaintsubasa/images/6/60/Captain_Tsubasa_%28PS2%29.jpg/revision/latest?cb=20081001031143" alt="Placeholder" />
+					<a class="card-link" href="captaintsubasa.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
+						<h2 class="card-text">Captain Tsubasa</h2>
 					</div>
 					</a>
 				</div>

@@ -42,13 +42,16 @@
 					<td rowspan="6"><img src="https://images.performgroup.com/di/library/GOAL/da/11/fifa-18-world-cup-update_1muuluhdqyeshz1y22gbiw58s.jpg?t=-1535892213" /></a></td>
 				</tr>
 				<tr><td>Nama</td><td>FIFA2018</td></tr>
-				<tr><td>Developer</td><td>Sega</td></tr>
-				<tr><td>publisher</td><td>bandai</td></tr>
-				<tr><td>Platform</td><td>Arcade</td></tr>
-				<tr><td>Release Date</td><td>2012</td></tr>
+				<tr><td>Developer</td><td>Electronic Arts</td></tr>
+				<tr><td>publisher</td><td>Electronic Arts</td></tr>
+				<tr><td>Platform</td><td>  PlayStation 4, Android, Xbox One, PlayStation 3, Xbox 360, Nintendo Switch, Microsoft Windows</td></tr>
+				<tr><td>Release Date</td><td>29 september 2017</td></tr>
 			</tbody>
 		</table>
-		<p>Review game, game ini mahal, awas ketagihan ntar nyesel</p>
+		<p>Review game<br>
+		Fifa 2018 adalah salah satu dari berbagai game bertema sepak bola. Game ini banyak digemari para pecinta sepak bola. Game ini merupakan pengembangan dari fifa 2017, yang merupakan game pengembangan fifa 2016 yang merupakan pengembangan game fifa 2015. Game ini memainkan olahraga popular sebagai nilai jualnya, team-team yang dapat dipilih juga beragam, mulai dari liga inggris, itali, dan sampai piala dunia. Tema piala dunia dipakai karena tahun 2018 merupakan pagelaran piala dunia di Rusia.
+		<br>Pada fifa 2018, grafik yang disajikan lebih detail, game play dan system bermainnya tidak terlalu berbeda dengan sebelum-sebelumnya. Tidak direkomendasikan bagi yang tidak suka bola
+</p>
 		
 		<table  class="table table-striped">
 			<thead class="thead-dark">
@@ -58,10 +61,10 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="4"><h1>8</h1></td>
+					<td rowspan="4"><h1>7</h1></td>
 				</tr>
-				<tr><td>Graphics</td><td>6/10</td></tr>
-				<tr><td>GamePlay</td><td>10/10</td></tr>
+				<tr><td>Graphics</td><td>7/10</td></tr>
+				<tr><td>GamePlay</td><td>7/10</td></tr>
 				<tr><td>Story</td><td>0/0</td></tr>
 			</tbody>
 		</table>

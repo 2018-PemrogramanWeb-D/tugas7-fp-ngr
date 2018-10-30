@@ -48,7 +48,13 @@
 				<tr><td>Release Date</td><td>2012</td></tr>
 			</tbody>
 		</table>
-		<p>Review game, game ini mahal, awas ketagihan ntar nyesel</p>
+		<p>Review game, <br>
+		Maimai adalah game rhytmn yang dapat dijumpai di arcade seperti timezone, funland, amazon, dll.. ciri khas dari game ini adalah mesin yang terlihat seperti mesin cuci. Cara memainkannya sama seperti game rhtymn pada umumnya, menekan tombol, menahan tombol pada waktu yang ditentukan. Tambahan dari game ini adalah feature slide, didukung dengan touch screen pada layarnya. 
+		<br>
+		Secara gameplay, game ini dapat dikatakan menarik, game ini menyajikan lagu-lagu dari jepang, ya… karena memang asalnya dari jepang. Lagu-lagu yang di sajikan memiliki genre yang lumayan beragam, biasanya di kelaskan dalam kategori-kategori seperti lagu vocaloid, lagu dari anime, lagu asli  dari maimai, dan lagu pop lebih tepatnya j-pop. Mesin ini ada juga yang terkoneksi ke internet, sehingga fitur-fitur online dapat dinikmati, misalnya akun maimai, lagu-lagu terupdate, dan video latar sebagai tambahan.
+		<br>
+		Kekurangan dari game ini mungkin harganya terlalu mahal di Indonesia, harga yang ditawarkan biasannya 12-16 ribu untuk sekali main. Bagi para pecinta rhtymn game, silahkan mencoba, segi permainan yang berbeda dengan dari game rhtymn pada umumnya pasti akan membuat player tertarik
+		</p>
 		
 		<table  class="table table-striped">
 			<thead class="thead-dark">
