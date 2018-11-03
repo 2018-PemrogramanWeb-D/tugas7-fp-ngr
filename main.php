@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <?php
+
 	include("./init.php");
 	include("./search_fun.php");
 
@@ -126,7 +127,6 @@
 		  </div>
 		</div>
 	</div>
-    <a href="setting.php">pengaturan akun</a>
     <p>About Us: mhd.Fadly, Nadhif Haikal, raden bimo rizky</p>
 	</div>
 </body>

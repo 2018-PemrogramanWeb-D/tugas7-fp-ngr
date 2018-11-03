@@ -25,26 +25,29 @@
 
 </style>
 <body>
+
 	<div class="container-top">
 		<?php include 'header.php';?>
+		<?php if($_SESSION["loginstatus"]==1) header("Location: /tugas7-fp-ngr/")?>
 	</div>
 
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
 		<?php include 'navbar.php';?>
 	</nav>
 	<div class="container">
+		<?php if($_SESSION["loginstatus"]==-1) echo "Gagal Login";?>
 		<h1>Login</h1>
-		<form>
+		<form action="check.php" method="post" >
 			<div class="form-group">
 				<label for="InputUsername">Username</label>
-				<input type="text" class="form-control" id="username"  placeholder="Masukkan username">
+				<input type="text" class="form-control" id="username" name="nama"  placeholder="Masukkan username">
 			</div>
 			<div class="form-group">
 				<label for="InputPassword1">Password</label>
-				<input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+				<input type="password" class="form-control" id="InputPassword1" name="pass" placeholder="Password">
 			</div>
-
-		  <button type="submit" class="btn btn-primary">Login</button>
+		  <input type="submit" class="btn btn-primary"/>
+		  
 		</form>
 		<br>
 	</div>
