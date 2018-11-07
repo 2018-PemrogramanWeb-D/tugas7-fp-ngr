@@ -9,6 +9,7 @@ $row = $check->fetch_assoc();
 if($_POST["pass"]==$row['u_password'])
 {
 	$_SESSION["loginstatus"]=1;
+	$_SESSION["username"]=$_POST["nama"];
 	header("Location: /tugas7-fp-ngr/");
 }
 else 

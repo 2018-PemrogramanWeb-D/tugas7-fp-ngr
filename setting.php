@@ -34,11 +34,8 @@
 	</nav>
 	<div class="container">
 		<h1>Setting</h1>
+		<h2>login sebagai <?php echo  ?></h1>
 		<form>
-			<div class="form-group">
-				<label for="InputUsername">Username</label>
-				<input type="text" class="form-control" id="username"  placeholder="Masukkan username">
-			</div>
 			<div class="form-group">
 				<label for="InputPassword1">Ganti Password</label>
 				<input type="password" class="form-control" id="InputPassword1" placeholder="Password">
