@@ -34,25 +34,36 @@
 	</nav>
 	<div class="container">
 		<h1>Setting</h1>
-		<h2>login sebagai <?php echo  ?></h1>
+		<h2>login sebagai <?php echo $_SESSION["username"];?></h1>
 		<form>
+				<div class="form-group">
+				<label for="InputFoto">Profile pic</label>
+				<input type="imagearc" class="form-control" id="Inputimage" placeholder="Masukkan foto">
+			</div>
+			<button type="submit" class="btn btn-primary">Ubah</button>
+		</form>
+		<form action = "/tugas7-fp-ngr/password.php" method ="post">
 			<div class="form-group">
 				<label for="InputPassword1">Ganti Password</label>
-				<input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+				
+				Password Lama<input type="password" class="form-control" id="InputPassword1" placeholder="Password Lama" name ="pass">
+				Password Baru<input type="password" class="form-control" id="InputPassword1" placeholder="Password baru" name ="password1">
+				Isi Ulang Password Baru <input type="password" class="form-control" id="InputPassword1" placeholder="Password baru" name ="password2">
+				<button type="submit" class="btn btn-primary">Ubah</button>
 			</div>
+		</form>
+		<form action = "/tugas7-fp-ngr/email.php" method ="post">
 			<div class="form-group">
 				<label for="InputEmail1">Email address</label>
-				<input type="email" class="form-control" id="InputEmail1" placeholder="Masukkan email">
+				<input type="email" class="form-control" id="InputEmail1" placeholder="Masukkan email baru" name="email">
+				<button type="submit" class="btn btn-primary">Ubah</button>
 			</div>
-		  <button type="submit" class="btn btn-primary">Ubah</button>
 		</form>
+
+			
+		  
+		
 		<br>
 	</div>
-
-	<?php 
-	$sql = "INSERT INTO pweb (firstname, lastname, email)
-	VALUES ('John', 'Doe', 'john@example.com')";
-?>
-
 </body>
 </html>

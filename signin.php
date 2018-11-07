@@ -28,8 +28,8 @@
 
 	<div class="container-top">
 		<?php include 'header.php';?>
-	</div>
 
+	</div>
 	<nav class="navbar sticky -top navbar-expand-lg navbar-dark bg-primary">
 		<?php include 'navbar.php';?>
 	</nav>
@@ -37,7 +37,9 @@
 	else if($_SESSION["loginstatus"]==-3)echo "username sudah ada!" ; 
 	else if($_SESSION["loginstatus"]==-4)echo "email sudah ada!" ; 
 	else if($_SESSION["loginstatus"]==-5)echo "error inputing to sql!" ; 
-	$_SESSION["loginstatus"]=0; ?>
+	 ?>
+	 <?php if($_SESSION["loginstatus"]==1) header("Location: /tugas7-fp-ngr/");
+	else $_SESSION["loginstatus"]=0;?>
 	<div class="container">
 		<h1>Daftar</h1>
 		<form action = "daftar.php" method="post">
