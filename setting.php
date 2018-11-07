@@ -52,6 +52,10 @@
 		<br>
 	</div>
 
+	<?php 
+	$sql = "INSERT INTO pweb (firstname, lastname, email)
+	VALUES ('John', 'Doe', 'john@example.com')";
+?>
 
 </body>
 </html>

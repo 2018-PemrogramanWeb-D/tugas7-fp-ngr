@@ -35,7 +35,9 @@
 		<?php include 'navbar.php';?>
 	</nav>
 	<div class="container">
-		<?php if($_SESSION["loginstatus"]==-1) echo "Gagal Login";?>
+		<?php if($_SESSION["loginstatus"]==-1) echo "Gagal Login";
+		else if ($_SESSION["loginstatus"]==-8) echo "Akun berhasil dibuat, Silahkan Login";
+		if($_SESSION["loginstatus"]<=1) $_SESSION["loginstatus"]=0;?>
 		<h1>Login</h1>
 		<form action="check.php" method="post" >
 			<div class="form-group">
