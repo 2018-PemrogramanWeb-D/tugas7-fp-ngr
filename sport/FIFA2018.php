@@ -153,18 +153,18 @@
 			<div class="comment-form">
 					<?php
 						if($_SESSION["loginstatus"] == 1)
-						echo'<form method="POST">
+						echo'<form method ="POST" action= "/tugas7-fp-ngr/comment_fun.php">
 							<textarea placeholder="What are you doing right now?" name="content-comment"></textarea>
 							<button type="submit" class="btn btn-success green" name="submit-comment"> Share</button>
 						</form>';
 						else echo '<h3>Anda perlu login untuk berkomentar</h3>';
+						include ('../comment_fun.php');
 					?>
 			</div>
 
 		</div>
         
     </div>
-
 
 		<br>
 	</div>

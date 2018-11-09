@@ -27,7 +27,7 @@ else if ($checkemail->num_rows > 0)//email sudah ada
 	$_SESSION["loginstatus"]=-4;
 	header("Location: /tugas7-fp-ngr/signin.php");
 }
-else //succed loggin
+else if ($_POST["pass2"]==$_POST["pass"])//succed loggin
 {
 	
  $sql = "INSERT INTO `user` (u_name,u_password,u_email)
