@@ -5,6 +5,7 @@
 
 	include("./init.php");
 	include("./search_fun.php");
+	include("./encrypt_decrypt.php");
 
 ?>
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
@@ -40,13 +41,13 @@
 	
 	<?php
 include("./init.php");
-$sql = "SELECT `u_password` FROM `user` where u_name='". $_SESSION["username"]."'";
+$sql = "SELECT `u_password` FROM `user` where u_name='". encrypt($_SESSION["username"])."'";
 $check = $conn->query($sql);
 $row = $check->fetch_assoc();
 
-if($_POST["pass"]==$row['u_password'])
+if(hashing($_POST["pass"])==$row['u_password'])
 {
-	if($_POST["password1"]==$_POST["password2"]) $sql = "UPDATE user SET u_password='".$_POST["password1"]."' WHERE u_name= '".$_SESSION["username"]."'";
+	if($_POST["password1"]==$_POST["password2"]) $sql = "UPDATE user SET u_password='".hashing($_POST["password1"])."' WHERE u_name= '".encrypt($_SESSION["username"])."'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Berhasil mengubah!";

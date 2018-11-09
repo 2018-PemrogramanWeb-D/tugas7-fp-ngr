@@ -12,4 +12,10 @@ function decrypt(string $ciphertext)
 	$original_plaintext = base64_decode("$ciphertext");
     return $original_plaintext."\n";
 }
+
+
+function hashing($string)
+{
+	return hash('ripemd160',$string);
+}
 ?>
