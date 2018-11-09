@@ -1,6 +1,5 @@
 <?php
 	include("./init.php");
-	include("./search_fun.php");
 
 ?>
 

@@ -1,9 +1,6 @@
 ﻿<!DOCTYPE html>
 <?php
-
 	include("./init.php");
-	include("./search_fun.php");
-
 ?>
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
