@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <?php
-	include_once('..\init.php');
+	include('..\init.php');
 ?>
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -128,15 +128,16 @@
 		<h3>Komentar</h3>
     <div class="row">
 		<?php 
-			$u_id = $_SESSION["id"];
+			$u_id = $_SESSION['id'];
+		
 			include('..\comment_fun.php');
-			
+			include('..\encrypt_decrypt.php');
 			while($display_com = mysqli_fetch_assoc($comment)){?>
         <div class="col-sm-12">
             <div class="panel panel-white post">
                 <div class="post-heading">
                         <div class="title h5">
-                            <b><?php echo $display_com['u_name']?></b> made a post.
+                            <b><?php echo decrypt($display_com['u_name'])?></b> made a post.
                         </div>
                         <h6 class="text-muted time"><?php echo $display_com['c_time']?></h6>
                 </div> 
@@ -153,12 +154,12 @@
 			<div class="comment-form">
 					<?php
 						if($_SESSION["loginstatus"] == 1)
-						echo'<form method ="POST" action= "/tugas7-fp-ngr/comment_fun.php">
+						echo'<form method ="POST" >
 							<textarea placeholder="What are you doing right now?" name="content-comment"></textarea>
 							<button type="submit" class="btn btn-success green" name="submit-comment"> Share</button>
 						</form>';
 						else echo '<h3>Anda perlu login untuk berkomentar</h3>';
-						include ('../comment_fun.php');
+						
 					?>
 			</div>
 
