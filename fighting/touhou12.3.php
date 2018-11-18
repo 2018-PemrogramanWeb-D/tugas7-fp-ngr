@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<?php
-	include('..\init.php');
-?>
+
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
@@ -21,52 +19,6 @@
 		height:150px;
 	}
 	
-	.comment-form{
-		background: none repeat scroll 0 0 #f5f5f5;
-		border-radius: 4px;
-		float: left;
-		width: 100%;
-	}
-	.comment-form form {
-		float: left;
-		width: 100%;
-	}
-	.comment-form form textarea {
-		background: none repeat scroll 0 0 #fff;
-		border: medium none;
-		border-radius: 4px 4px 0 0;
-		float: left;
-		font-size: 14px;
-		height: 142px;
-		padding: 20px;
-		width: 100%;
-		resize:vertical;
-		outline:none;
-		border: 1px solid #F2F2F2;
-	}
-
-	.panel-white {
-	  margin-top: 5px;
-	  margin-bottom: 10px;
-	  border: 1px solid #dddddd;
-	}
-	.panel-white  .panel-heading {
-	  color: #333;
-	  background-color: #fff;
-	  border-color: #ddd;
-	}
-
-	.post .post-heading {
-	  height: 95px;
-	  padding: 15px;
-	}
-
-	.post .post-description {
-	  padding: 15px;
-	}
-	.post .post-description p {
-	  font-size: 14px;
-	}
 
 </style>
 <body>
@@ -208,6 +160,8 @@
 		
 			include('..\comment_fun.php');
 			include('..\encrypt_decrypt.php');
+			if (($num_comments  = mysqli_num_rows($comment)) > 0){
+				echo '<div class=col-sm-12><h4>Ada '."$num_comments".' komentar.</h4></div>';
 			while($display_com = mysqli_fetch_assoc($comment)){?>
         <div class="col-sm-12">
             <div class="panel panel-white post">
@@ -222,27 +176,11 @@
                 </div>
             </div>
 		</div>
-		<?php }; ?>
+			<?php }} 
+			else echo '<div class="col-sm-12"><h4>Tidak ada komentar</h4></div>';?>
 
 	</div>
-    <div class="row">
-		<div class="col-md-8">
-			<div class="comment-form">
-					<?php
-						if($_SESSION["loginstatus"] == 1)
-						echo'<form method ="POST" >
-							<textarea placeholder="What are you doing right now?" name="content-comment"></textarea>
-							<button type="submit" class="btn btn-success green" name="submit-comment"> Share</button>
-						</form>';
-						else echo '<h3>Anda perlu login untuk berkomentar</h3>';
-						
-					?>
-			</div>
-
-		</div>
-        
-    </div>
-
+	<?php include '../comment_form.php';?>
 		<br>
 	</div>
 </body>

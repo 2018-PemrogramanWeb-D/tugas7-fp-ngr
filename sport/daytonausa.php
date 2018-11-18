@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<?php
-	include('..\init.php');
-?>
+
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
@@ -163,6 +161,8 @@
 		
 			include('..\comment_fun.php');
 			include('..\encrypt_decrypt.php');
+			if (($num_comments  = mysqli_num_rows($comment)) > 0){
+				echo '<div class=col-sm-12><h4>Ada '."$num_comments".' komentar.</h4></div>';
 			while($display_com = mysqli_fetch_assoc($comment)){?>
         <div class="col-sm-12">
             <div class="panel panel-white post">
@@ -177,26 +177,13 @@
                 </div>
             </div>
 		</div>
-		<?php }; ?>
+			<?php }} 
+			else echo '<div class="col-sm-12"><h4>Tidak ada komentar</h4></div>';?>
 
 	</div>
-    <div class="row">
-		<div class="col-md-8">
-			<div class="comment-form">
-					<?php
-						if($_SESSION["loginstatus"] == 1)
-						echo'<form method ="POST" >
-							<textarea placeholder="What are you doing right now?" name="content-comment"></textarea>
-							<button type="submit" class="btn btn-success green" name="submit-comment"> Share</button>
-						</form>';
-						else echo '<h3>Anda perlu login untuk berkomentar</h3>';
-						
-					?>
-			</div>
-
-		</div>
-        
-    </div>
+	<?php include '../comment_form.php';?>
+		<br>
+	</div>
 
 		<br>
 	</div>

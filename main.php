@@ -1,7 +1,5 @@
 ﻿<!DOCTYPE html>
-<?php
-	include("./init.php");
-?>
+
 <html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">

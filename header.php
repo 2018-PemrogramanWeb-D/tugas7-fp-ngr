@@ -6,6 +6,9 @@
 		  <div class="col align-self-end">
 			  <div class="float-right">
 <?php 
+   $init = $_SERVER['DOCUMENT_ROOT'];
+      $init .= "/tugas7-fp-ngr/init.php";
+	     include_once($init);
 if (!isset($_SESSION)) {
     session_start();
 }
