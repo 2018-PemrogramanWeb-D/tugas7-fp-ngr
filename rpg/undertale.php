@@ -62,7 +62,7 @@
             Game ini juga terdapat "4th wall breaking".<br>
             <div style="margin: 5px 20px 20px;">
             <div class="smallfont" style="margin-bottom: 2px;">
-                <b>Pendapat cerita (Spoiler)</b>:
+                <b>Review dan Pendapat cerita (Spoiler)</b>:
                 <input value="Buka" style="margin: 0px; padding: 0px; width: 55px; font-size: 12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Tutup'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Buka'; }" type="button">
             </div>
             <div class="alt2" style="border: 1px inset ; margin: 0px; padding: 6px;">
