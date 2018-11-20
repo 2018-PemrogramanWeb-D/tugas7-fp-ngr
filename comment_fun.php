@@ -1,5 +1,6 @@
 <?php
 
+
 $sql = "SELECT u_id FROM `user` where u_id='$u_id'";
 
 $user = mysqli_fetch_assoc(mysqli_query($conn, $sql)) ;
@@ -14,7 +15,7 @@ $time = date('Y-m-d');
 
 
 if(isset($_POST['content-comment'])){
-	$comment = $_POST["content-comment"];
+	$comment = mysqli_real_escape_string($conn,$_POST['content-comment']);
 	 $sql = "INSERT INTO `comments` (u_id, a_id, c_contents, c_time)
     VALUES ('$user','$article','$comment', '$time');";
 	if(mysqli_query($conn, $sql))

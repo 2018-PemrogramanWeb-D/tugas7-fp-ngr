@@ -41,7 +41,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="6"><img src="https://images.performgroup.com/di/library/GOAL/da/11/fifa-18-world-cup-update_1muuluhdqyeshz1y22gbiw58s.jpg?t=-1535892213" /></a></td>
+					<td rowspan="6"><img src="https://images.performgroup.com/di/library/GOAL/da/11/fifa-18-world-cup-update_1muuluhdqyeshz1y22gbiw58s.jpg?t=-1535892213" /></td>
 				</tr>
 				<tr><td>Nama</td><td>FIFA2018</td></tr>
 				<tr><td>Developer</td><td>Electronic Arts</td></tr>

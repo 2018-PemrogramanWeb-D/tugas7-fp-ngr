@@ -37,7 +37,7 @@
 		<table class="table table-striped">
 			<thead class="thead-dark">
 				<tr>
-					<th colspan="3">Daytona USA (Arcade)</th>
+					<th colspan="3">Shovel Knight</th>
 				</tr>
 			</thead>
 			<tbody>

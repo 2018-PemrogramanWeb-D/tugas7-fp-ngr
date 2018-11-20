@@ -30,17 +30,23 @@
 		<?php include 'navbar.php';?>
 	</nav>
 	<div class="container">
-
-		<?php 
+		<br>
+		<?php
+			if($num_a > 0){
+				echo '<div class=col-md-8><h2>Ada '."$num_a".' artikel</h2></div>';
 			while($display = mysqli_fetch_assoc($data)){?>
-		
-			<h1>
-			<a class="container-link" href="<?php echo $display['a_link']?>"> <?php echo $display['a_name']?></a>
-			</h1>
+			
+			<div class="row">
+				<div class="col-md-8">
+				<img src="<?php echo $display['a_img_link']?>"/>
+					<h1>
+						<a class="container-link" href="<?php echo $display['a_link']?>"> <?php echo $display['a_name']?></a>
+					</h1>
+				</div>
+			</div>
+
 				
-		<?php } ?>	
-		</tbody>
-	</table>
+			<?php }} else echo '<div class="col-md-8"><h2>Tidak ada artikel</h2></div>' ?>	
 	</div>
 	   
 	

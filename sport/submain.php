@@ -31,13 +31,13 @@
 	</nav>
 	<div class="container">
 		 <div class="page-header">
-			<h1>Platform Game</h1>      
+			<h1>Sports Game</h1>      
 		 </div>
 
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://images.performgroup.com/di/library/GOAL/da/11/fifa-18-world-cup-update_1muuluhdqyeshz1y22gbiw58s.jpg?t=-1535892213" alt="Placeholder" />
+					<img class="card-img" src="https://images.performgroup.com/di/library/GOAL/da/11/fifa-18-world-cup-update_1muuluhdqyeshz1y22gbiw58s.jpg?t=-1535892213" alt="Fifa 2018" />
 					<a class="card-link" href="FIFA2018.php">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">FIFA2018</h2>
@@ -47,7 +47,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://vignette.wikia.nocookie.net/captaintsubasa/images/6/60/Captain_Tsubasa_%28PS2%29.jpg/revision/latest?cb=20081001031143" alt="Placeholder" />
+					<img class="card-img" src="https://vignette.wikia.nocookie.net/captaintsubasa/images/6/60/Captain_Tsubasa_%28PS2%29.jpg/revision/latest?cb=20081001031143" alt="CAptain Tsubasa" />
 					<a class="card-link" href="captaintsubasa.php">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Captain Tsubasa</h2>
@@ -57,68 +57,18 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
+					<img class="card-img" src="https://segaretro.org/images/thumb/a/a7/DaytonaUSA_Art.jpg/504px-DaytonaUSA_Art.jpg" alt="Daytona USA" />
+					<a class="card-link" href="daytonausa.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
+						<h2 class="card-text">Daytona USA (Arcade)</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
+
 		</div>
 		
-		<div class="row">
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		</div>
+
 		<br>
 	</div>
  

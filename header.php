@@ -1,7 +1,7 @@
-<h1>nGr</h1>
-		 <div class="row">
+
+<div class="row">
 		  <div class="col align-self-start">
-			<h3>nice game review</h3>
+			<a href="/tugas7-fp-ngr/"><img src="../../tugas7-fp-ngr/content/logo.svg"></a>
 		  </div>
 		  <div class="col align-self-end">
 			  <div class="float-right">
