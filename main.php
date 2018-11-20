@@ -39,7 +39,7 @@
 		<div class="row">
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://img.freepik.com/free-vector/collection-of-people-doing-sport-silhouette_23-2147553215.jpg?size=338c&ext=jpg" alt="sports"/>
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_sport.svg" alt="sports"/>
 					<a class="card-link" href="sport">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Sports</h2>
@@ -49,7 +49,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://supermario.nintendo.com/assets/img/home/mario.png" alt="Platformer" />
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_platform.svg" alt="Platformer" />
 					<a class="card-link" href="platform">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Platformer</h2>
@@ -59,7 +59,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://image.freepik.com/free-vector/human-silhouettes-pack_23-2147734613.jpg" alt="Simulation" />
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_simulation.svg" alt="Simulation" />
 					<a class="card-link" href="simulation">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Simulation Games</h2>
@@ -69,7 +69,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://media.istockphoto.com/vectors/black-symbols-role-playing-games-vector-id165695181" alt="RPG" />
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_rpg.svg" alt="RPG" />
 					<a class="card-link" href="rpg">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Role Playing Games</h2>
@@ -82,7 +82,7 @@
 		<div class="row">
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="http://pre09.deviantart.net/141d/th/pre/f/2016/115/a/8/osu__logo_by_shadowthegod-da05j13.png" alt="Rhytmn" />
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_rythmn.svg" alt="Rhytmn" />
 					<a class="card-link" href="rhytmn">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Rhytmn Games</h2>
@@ -92,7 +92,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://cdn5.vectorstock.com/i/1000x1000/00/79/karate-fighting-vector-10310079.jpg" alt="fighting" />
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_fighting.svg" alt="fighting" />
 					<a class="card-link" href="fighting">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Fighting Games</h2>
@@ -102,7 +102,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img src="https://image.freepik.com/free-vector/business-strategy_23-2147504341.jpg" alt="strategy" />
+					<img src="../../tugas7-fp-ngr/content/icon_strategy.svg" alt="strategy" />
 					<a class="card-link" href="strategy">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Strategy Games</h2>
@@ -112,7 +112,7 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://cdn2.vectorstock.com/i/1000x1000/42/66/target-gun-classic-paper-shooting-target-vector-16794266.jpg" alt="shooting" />
+					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_shooter.svg" alt="shooting" />
 					<a class="card-link" href="shooter">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Shooter</h2>
