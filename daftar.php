@@ -2,9 +2,11 @@
 include("./init.php");
 include("./encrypt_decrypt.php");
 session_start();
-
-$sqluser = "SELECT `u_name` FROM `user` where u_name='". encrypt($_POST["nama"])."'";
-$sqlemail = "SELECT `u_email` FROM `user` where u_email='". encrypt($_POST["email"])."'";
+$uName= mysqli_real_escape_string($conn,$_POST["nama"]);
+$uEmail= mysqli_real_escape_string($conn,$_POST["email"]);
+$uPass= mysqli_real_escape_string($conn,$_POST["pass"]);
+$sqluser = "SELECT `u_name` FROM `user` where u_name='". encrypt(uName)."'";
+$sqlemail = "SELECT `u_email` FROM `user` where u_email='". encrypt(uEmail)."'";
 $checkuser = $conn->query($sqluser);
 $rowuser = $checkuser->fetch_assoc();
 $checkemail = $conn->query($sqlemail);
@@ -27,11 +29,11 @@ else if ($checkemail->num_rows > 0)//email sudah ada
 	$_SESSION["loginstatus"]=-4;
 	header("Location: /tugas7-fp-ngr/signin.php");
 }
-else if ($_POST["pass2"]==$_POST["pass"])//succed loggin
+else if ($_POST["pass2"]==$uPass)//succed loggin
 {
 	
  $sql = "INSERT INTO `user` (u_name,u_password,u_email)
-    VALUES ('".encrypt($_POST["nama"])."','".hashing($_POST["pass"])."','".encrypt($_POST["email"])."');";
+    VALUES ('".encrypt($uName)."','".hashing($uPass)."','".encrypt($uEmail)."');";
 
 if($conn->query($sql)===TRUE)
 {

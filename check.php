@@ -3,11 +3,13 @@ include("./init.php");
 include("./encrypt_decrypt.php");
 session_start();
 
-$sql = "SELECT `u_password`,`u_id` FROM `user` where u_name='". encrypt($_POST["nama"])."'";
+$passwd = mysqli_real_escape_string($conn,$_POST['pass']);
+$nama = mysqli_real_escape_string($conn,$_POST["nama"]);
+$sql = "SELECT `u_password`,`u_id` FROM `user` where u_name='". encrypt($nama)."'";
 $check = $conn->query($sql);
 $row = $check->fetch_assoc();
 
-if( !empty($row) && hashing($_POST['pass'])==$row['u_password'])
+if( !empty($row) && hashing($passwd)==$row['u_password'])
 {
 	$_SESSION["loginstatus"]=1;
 	$_SESSION["username"]=$_POST["nama"];

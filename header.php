@@ -1,7 +1,7 @@
 
 <div class="row">
 		  <div class="col align-self-start">
-			<a href="/tugas7-fp-ngr/"><img src="../../tugas7-fp-ngr/content/logo.svg"></a>
+			<a href="/tugas7-fp-ngr/"><img src="../../tugas7-fp-ngr/content/logo.svg" id="logo"></a>
 		  </div>
 		  <div class="col align-self-end">
 			  <div class="float-right">

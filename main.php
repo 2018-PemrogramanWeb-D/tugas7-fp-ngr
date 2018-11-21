@@ -122,7 +122,7 @@
 		  </div>
 		</div>
 	</div>
-    <p>About Us: mhd.Fadly, Nadhif Haikal, raden bimo rizky</p>
+    <p>About Us: Mhd.Fadly, Nadhif Haikal, Raden Bimo Rizki</p>
 	</div>
 </body>
 </html>

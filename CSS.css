@@ -76,3 +76,8 @@ body{
 .post .post-description p {
   font-size: 14px;
 }
+
+#logo{
+	width:250px;
+	height:150px;
+}
