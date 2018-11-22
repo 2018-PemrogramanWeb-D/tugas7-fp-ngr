@@ -107,7 +107,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="5"><h1>8</h1></td>
+					<td rowspan="5"><img src="../content/8.svg"></td>
 				</tr>
                 <tr><td>Story</td><td>8/10</td></tr>
                 <tr><td>Gameplay</td><td>8/10</td></tr>

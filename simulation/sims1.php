@@ -39,7 +39,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="5"><img src="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" alt="Superstar Saga" /></a></td>
+					<td rowspan="5"><img src="https://vignette.wikia.nocookie.net/logopedia/images/9/93/The_Sims_logo.png/revision/latest?cb=20130506192016" alt="Superstar Saga" /></a></td>
 				</tr>
 				<tr><td>Developer</td><td>Maxis</td></tr>
 				<tr><td>Publisher</td><td>Electronic Arts</td></tr>
@@ -86,7 +86,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="4"><h1>7</h1></td>
+					<td rowspan="4"><img src="../content/7.svg"></td>
 				</tr>
                 <tr><td>Gameplay</td><td>8/10</td></tr>
 				<tr><td>Graphics</td><td>7/10</td></tr>

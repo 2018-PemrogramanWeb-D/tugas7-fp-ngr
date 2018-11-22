@@ -47,78 +47,29 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
+					<img class="card-img" src="https://static.tvtropes.org/pmwiki/pub/images/sviv_01.jpg" alt="Placeholder" />
+					<a class="card-link" href="soundvoltex4.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
+						<h2 class="card-text">sound voltex4</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
+					<img class="card-img" src="https://nintendosoup.com/wp-content/uploads/2018/03/taiko-no-tatsujin-nintendo-switch-version-mar92018-1.jpg" alt="Placeholder" />
+					<a class="card-link" href="taikoswitch.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
+						<h2 class="card-text">taiko switch</h2>
 					</div>
 					</a>
 				</div>
 		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
+	
 		</div>
 		
-		<div class="row">
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		</div>
+		
+
 		<br>
 	</div>
  

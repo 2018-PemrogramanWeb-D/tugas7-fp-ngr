@@ -123,7 +123,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="5"><h1>7</h1></td>
+					<td rowspan="5"><img src="../content/7.svg"></td>
 				</tr>
                 <tr><td>Story</td><td>6/10</td></tr>
                 <tr><td>Gameplay</td><td>7/10</td></tr>

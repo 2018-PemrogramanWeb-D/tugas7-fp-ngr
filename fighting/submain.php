@@ -46,73 +46,10 @@
 		  </div>
 		  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
+					<img class="card-img" src="https://en.touhouwiki.net/images/7/72/Th123.jpg" alt="Placeholder" />
+					<a class="card-link" href="touhou12.3.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		</div>
-		
-		<div class="row">
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
+						<h2 class="card-text">Touhou 12.3</h2>
 					</div>
 					</a>
 				</div>

@@ -103,7 +103,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="4"><h1>8</h1></td>
+					<td rowspan="4"><img src="../content/8.svg"></td>
 				</tr>
                 <tr><td>GamePlay</td><td>8/10</td></tr>
 				<tr><td>Graphics</td><td>9/10</td></tr>

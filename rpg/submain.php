@@ -35,90 +35,27 @@
 		 </div>
 
 		<div class="row">
-			<div class="col-lg-3">
+				  <div class="col-lg-3">
 				<div class="card text-white">
-					<img class="card-img" src="https://vignette.wikia.nocookie.net/finalfantasy/images/4/4e/FF7_Logo.png/revision/latest?cb=20160920112537" alt="Placeholder" />
-					<a class="card-link" href="FinalFantasy.php">
+					<img class="card-img" src="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" alt="logo" />
+					<a class="card-link" href="marioluigissg.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Final Fantasy VII</h2>
+						<h2 class="card-text">Mario Luigi SSG</h2>
+					</div>
+					</a>
+					</div>
+				</div>
+						<div class="card text-white">
+					<img class="card-img" src="https://yt3.ggpht.com/aXRtwPwqQ8yYDZ6e8EtNX8h9U_vztz4VOkgLdFKa97EfIJfXnwghFwxw1Pex4Fvr7mGWNY1ccc69LFXv_A=w390-h540-nd" alt="logo" />
+					<a class="card-link" href="undertale.php">
+					<div class="card-img-overlay ovl">
+						<h2 class="card-text">Undertale</h2>
 					</div>
 					</a>
 				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
+		  
 		</div>
-		
-		<div class="row">
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		</div>
+	
 		<br>
 	</div>
  

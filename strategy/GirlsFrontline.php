@@ -64,7 +64,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td rowspan="4"><h1>9</h1></td>
+					<td rowspan="4"><img src="../content/9.svg"></td>
 				</tr>
 				<tr><td>Graphics</td><td>6/10</td></tr>
 				<tr><td>GamePlay</td><td>10/10</td></tr>

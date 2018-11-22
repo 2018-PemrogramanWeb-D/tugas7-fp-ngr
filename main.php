@@ -32,10 +32,9 @@
 	</nav>
 	<div class="container">
 		 <div class="page-header">
-			<h1>Example Page Header</h1>      
+			<h1>Selamat datang di nGr, Indonesian game review</h1>      
 		 </div>
-		 <p>This is some text.</p>      
-		 <p>This is another text.</p>
+		 <h2>Pilih genre atau cari game yang Anda inginkan!</h2>
 		<div class="row">
 		  <div class="col-lg-3">
 				<div class="card text-white">

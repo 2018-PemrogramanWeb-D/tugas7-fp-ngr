@@ -45,81 +45,10 @@
 					</a>
 				</div>
 		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
+		 
 		</div>
 		
-		<div class="row">
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="logo.ico" alt="Placeholder" />
-					<a class="card-link" href="##">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Placeholder</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		</div>
-		<br>
+		 <br>
 	</div>
  
 </body>
