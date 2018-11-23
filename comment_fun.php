@@ -20,11 +20,11 @@ if(isset($_POST['content-comment'])){
     VALUES ('$user','$article','$comment', '$time');";
 	if(mysqli_query($conn, $sql))
 	{
-		echo "inputted";
+		echo '<div class="col-sm-12"><h4>Komentar Anda berhasil diinput</h4></div>';
 	}
 	else 
 	{
-		echo "error";
+		echo '<div class="col-sm-12"><h4>error</h4></div>';
 	}
 
 
