@@ -31,7 +31,7 @@
 	</nav>
 	<div class="container">
 		 <div class="page-header">
-			<h1>Platform Game</h1>      
+			<h1>Strategy Game</h1>      
 		 </div>
 
 		<div class="row">
