@@ -50,7 +50,7 @@
 					<img class="card-img" src="https://static.tvtropes.org/pmwiki/pub/images/sviv_01.jpg" alt="Placeholder" />
 					<a class="card-link" href="soundvoltex4.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">sound voltex4</h2>
+						<h2 class="card-text">Sound Voltex IV</h2>
 					</div>
 					</a>
 				</div>
@@ -60,7 +60,7 @@
 					<img class="card-img" src="https://nintendosoup.com/wp-content/uploads/2018/03/taiko-no-tatsujin-nintendo-switch-version-mar92018-1.jpg" alt="Placeholder" />
 					<a class="card-link" href="taikoswitch.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">taiko switch</h2>
+						<h2 class="card-text">Taiko no Tatsujin (Switch)</h2>
 					</div>
 					</a>
 				</div>
