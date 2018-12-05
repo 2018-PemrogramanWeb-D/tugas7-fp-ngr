@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.37772166"
-     inkscape:cx="865.44059"
+     inkscape:cx="423.31609"
      inkscape:cy="1133.7865"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4540"
      showgrid="true"
      inkscape:snap-page="true"
      inkscape:snap-bbox="false"
@@ -37,9 +37,9 @@
      inkscape:snap-object-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,15 +76,10 @@
          d="m 148.16666,0.66666687 h 52.91667 L 254,127.66667 317.5,201.75 211.66666,244.08333 H 105.83333 L 63.499999,201.75 116.41667,148.83333 Z"
          style="fill:#440000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
-         inkscape:connector-curvature="0"
-         id="path4532"
-         d="M 264.58333,-62.833332 V 64.166669 l 63.5,95.250001 84.66666,-42.33334 31.75,-105.83333 -21.16666,-127 z"
-         style="fill:#440000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4534"
-         d="m 306.91667,-41.666664 105.83333,-31.75 V 74.750004 L 359.83334,117.08333 317.50001,95.91667 Z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#440000;fill-opacity:1;stroke:none;stroke-width:1.12121201px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 1661.8184 236.42969 L 989.0918 460.67383 L 989.0918 998.85547 L 1258.1816 1402.4902 L 1616.9688 1223.0977 L 1751.5156 774.61133 L 1661.8184 236.42969 z M 1616.9688 415.82422 L 1616.9688 1043.7031 L 1392.7266 1223.0977 L 1213.334 1133.4004 L 1168.4844 550.36914 L 1616.9688 415.82422 z "
+         transform="matrix(0.23597973,0,0,0.23597973,31.177923,-171.5428)"
+         id="path4532" />
     </g>
   </g>
 </svg>
