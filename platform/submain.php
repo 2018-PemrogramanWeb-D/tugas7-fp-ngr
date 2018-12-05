@@ -41,7 +41,7 @@
 					<img class="card-img" src="https://hb.imgix.net/84e373244f1f3b435b896606021cc86faf782a81.jpg?auto=compress,format&fit=crop&h=353&w=616&s=37b0bd971833306030b263c71918f730" alt="Placeholder" />
 					<a class="card-link" href="shovelknighttt.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Shovel Knight</h2>
+						<h2 class="card-text">shovel knight</h2>
 					</div>
 					</a>
 	</div>
@@ -51,7 +51,7 @@
 					<img class="card-img" src="http://info.sonicretro.org/images/thumb/3/37/Sonic1_box_jap.jpg/800px-Sonic1_box_jap.jpg" alt="Placeholder" />
 					<a class="card-link" href="sonic1.php">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Sonic the Hedgehog (1991)</h2>
+						<h2 class="card-text">Sonic1</h2>
 					</div>
 					</a>
 	</div>
