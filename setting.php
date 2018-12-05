@@ -30,13 +30,6 @@
 	<div class="container">
 		<h1>Setting</h1>
 		<h2>login sebagai <?php echo $_SESSION["username"];?></h1>
-		<form>
-				<div class="form-group">
-				<label for="InputFoto">Profile pic</label>
-				<input type="imagearc" class="form-control" id="Inputimage" placeholder="Masukkan foto">
-			</div>
-			<button type="submit" class="btn btn-primary">Ubah</button>
-		</form>
 		<form action = "/tugas7-fp-ngr/password.php" method ="post">
 			<div class="form-group">
 				<label for="InputPassword1">Ganti Password</label>
