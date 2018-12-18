@@ -12,8 +12,7 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-		if($_SESSION["loginstatus"]<=0) echo '<a href="/tugas7-fp-ngr/login.php">Login</a>||
-				  <a href="/tugas7-fp-ngr/signin.php">Sign In</a>';
+		if($_SESSION["loginstatus"]<=0) echo '<a class="btn btn-primary" placeholder="Login"  href="/tugas7-fp-ngr/login.php">Login</a>   <a class="btn btn-primary" placeholder="Login" href="/tugas7-fp-ngr/signin.php">Sign In</a>';
 		else  if($_SESSION["loginstatus"]==1) echo 'Logged in as '.$_SESSION["username"].'<br><a href="../../tugas7-fp-ngr/setting.php">pengaturan akun</a>||<a href="/tugas7-fp-ngr/logout.php"> Logout</a>';
 ?>
 		</div>
