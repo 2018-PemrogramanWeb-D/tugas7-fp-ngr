@@ -13,7 +13,6 @@
     <link rel="icon" href="logo.ico">
 	<title>NGR - Nice Game Review</title>
  <style>
-
 	img{
 		width:250px;
 		height:150px;
@@ -116,7 +115,7 @@
                         <h6 class="text-muted time"><?php echo $display_com['c_time']?></h6>
                 </div> 
                 <div class="post-description"> 
-                    <p><?php echo $display_com['c_contents']?></p>
+                   <?php echo "<textarea rows='4' cols='100'>".$display_com['c_contents']."</textarea>"?>	
                 </div>
             </div>
 		</div>
