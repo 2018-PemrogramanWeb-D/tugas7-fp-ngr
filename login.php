@@ -23,6 +23,7 @@
 
 	<div class="container-top">
 		<?php include 'header.php';?>
+		
 		<?php if($_SESSION["loginstatus"]==1) header("Location: /tugas7-fp-ngr/")?>
 	</div>
 
