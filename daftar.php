@@ -52,10 +52,13 @@ if($conn->query($sql)===TRUE)
 	
 	}
 }
-else $_SESSION["loginstatus"]=-6;
+else 
+{$_SESSION["loginstatus"]=-6;
 header("Location: /tugas7-fp-ngr/signin.php");
 }
-else $_SESSION["loginstatus"]=-7;
+}
+else 
+{$_SESSION["loginstatus"]=-7;
 header("Location: /tugas7-fp-ngr/signin.php");
-
+}
 ?>
