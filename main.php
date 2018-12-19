@@ -49,7 +49,7 @@
 		  <div class="col-lg-3">
 				<div class="card text-white">
 					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_platform.svg" alt="Platformer" />
-					<a class="card-link" href="platform">
+					<a class="card-link" href="Platformer">
 					<div class="card-img-overlay ovl">
 						<h2 class="card-text">Platformer</h2>
 					</div>
@@ -112,9 +112,9 @@
 		  <div class="col-lg-3">
 				<div class="card text-white">
 					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_shooter.svg" alt="shooting" />
-					<a class="card-link" href="shooter">
+					<a class="card-link" href="Shooting">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Shooter</h2>
+						<h2 class="card-text">Shooting</h2>
 					</div>
 					</a>
 				</div>
