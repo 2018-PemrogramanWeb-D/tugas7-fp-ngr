@@ -12,8 +12,11 @@ $rowuser = $checkuser->fetch_assoc();
 $checkemail = $conn->query($sqlemail);
 $rowemail = $checkemail->fetch_assoc();
 
+if(strlen($_POST["nama"])>=4)
+{
 
-
+if(strlen($_POST["pass"])>=6)
+{
 if ($_POST["pass2"]!=$_POST["pass"])//password tidak sama
 {
 	$_SESSION["loginstatus"]=-2;
@@ -47,8 +50,12 @@ if($conn->query($sql)===TRUE)
 		header("Location: /tugas7-fp-ngr/signin.php");
 	}
 	
+	}
 }
-
-
+else $_SESSION["loginstatus"]=-6;
+header("Location: /tugas7-fp-ngr/signin.php");
+}
+else $_SESSION["loginstatus"]=-7;
+header("Location: /tugas7-fp-ngr/signin.php");
 
 ?>

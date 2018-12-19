@@ -33,6 +33,8 @@
 	else if($_SESSION["loginstatus"]==-3)echo "username sudah ada!" ; 
 	else if($_SESSION["loginstatus"]==-4)echo "email sudah ada!" ; 
 	else if($_SESSION["loginstatus"]==-5)echo "error inputing to sql!" ; 
+	else if($_SESSION["loginstatus"]==-6)echo "password Terlalu pendek!" ; 
+	else if($_SESSION["loginstatus"]==-7)echo "Username Terlalu pendek!" ; 
 	 ?>
 	 <?php if($_SESSION["loginstatus"]==1) header("Location: /tugas7-fp-ngr/");
 	else $_SESSION["loginstatus"]=0;?>
