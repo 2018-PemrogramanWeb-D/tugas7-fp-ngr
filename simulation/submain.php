@@ -33,21 +33,26 @@
 		 <div class="page-header">
 			<h1>Simulation Game</h1>      
 		 </div>
-
 		<div class="row">
-			<div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="https://vignette.wikia.nocookie.net/logopedia/images/9/93/The_Sims_logo.png/revision/latest?cb=20130506192016" alt="Placeholder" />
-					<a class="card-link" href="sims1.php">
+			
+				<?php 
+				$sql = "select a_name,a_genre,a_img_link,a_link from articles where a_genre = 'simulation'";
+				$content = $conn->query($sql);
+				while($row = $content->fetch_assoc())
+				{echo '<div class="col-lg-3"><div class="card text-white" >
+					<img class="card-img" src="'.$row["a_img_link"].'" alt="Placeholder" />
+					<a class="card-link" href="'.$row["a_link"].'">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">the Sims 1</h2>
+						<h2 class="card-text">'.$row["a_name"].'</h2>
 					</div>
 					</a>
 				</div>
-		  </div>
-		  </div>
-		   <br>
-		</div>
+				</div>';
+				}
+				?>
+		  
+		 </div>
+		
 		<br>
 	</div>
  

@@ -17,6 +17,7 @@
 	img{
 		width:250px;
 		height:150px;
+	}
 
 </style>
 <body>
@@ -32,29 +33,25 @@
 		 <div class="page-header">
 			<h1>Fighting Game</h1>      
 		 </div>
-
 		<div class="row">
-			<div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="https://vignette.wikia.nocookie.net/logopedia/images/6/67/Tekken-7-logo-wallpaper.jpg/revision/latest?cb=20140719134807" alt="Placeholder" />
-					<a class="card-link" href="Tekken.php">
+			
+				<?php 
+				$sql = "select a_name,a_genre,a_img_link,a_link from articles where a_genre = 'fighting'";
+				$content = $conn->query($sql);
+				while($row = $content->fetch_assoc())
+				{echo '<div class="col-lg-3"><div class="card text-white" >
+					<img class="card-img" src="'.$row["a_img_link"].'" alt="Placeholder" />
+					<a class="card-link" href="'.$row["a_link"].'">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Tekken</h2>
+						<h2 class="card-text">'.$row["a_name"].'</h2>
 					</div>
 					</a>
 				</div>
-		  </div>
-		  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="https://en.touhouwiki.net/images/7/72/Th123.jpg" alt="Placeholder" />
-					<a class="card-link" href="touhou12.3.php">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Touhou 12.3</h2>
-					</div>
-					</a>
-				</div>
-		  </div>
-		</div>
+				</div>';
+				}
+				?>
+		 </div>
+		
 		<br>
 	</div>
  

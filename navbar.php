@@ -18,7 +18,7 @@ echo '
 
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="../../tugas7-fp-ngr/platform" >
+                    <a class="nav-link " href="../../tugas7-fp-ngr/platformer" >
                         Platformer
                     </a>
                 </li>
@@ -35,8 +35,8 @@ echo '
 
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="../../tugas7-fp-ngr/rhytmn" >
-                        Rhytmn
+                    <a class="nav-link" href="../../tugas7-fp-ngr/rhythm" >
+                        Rhythm
                     </a>
 
                 </li>
@@ -53,7 +53,7 @@ echo '
 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../../tugas7-fp-ngr/shooter" >
+                    <a class="nav-link" href="../../tugas7-fp-ngr/shooting" >
                         Shooting
                     </a>
 

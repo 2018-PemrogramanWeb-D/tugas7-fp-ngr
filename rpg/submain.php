@@ -33,29 +33,26 @@
 		 <div class="page-header">
 			<h1>RPG Game</h1>      
 		 </div>
-
 		<div class="row">
-				  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" alt="logo" />
-					<a class="card-link" href="marioluigissg.php">
+			
+				<?php 
+				$sql = "select a_name,a_genre,a_img_link,a_link from articles where a_genre = 'rpg'";
+				$content = $conn->query($sql);
+				while($row = $content->fetch_assoc())
+				{echo '<div class="col-lg-3"><div class="card text-white" >
+					<img class="card-img" src="'.$row["a_img_link"].'" alt="Placeholder" />
+					<a class="card-link" href="'.$row["a_link"].'">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Mario Luigi SSG</h2>
-					</div>
-					</a>
-					</div>
-				</div>
-						<div class="card text-white">
-					<img class="card-img" src="https://yt3.ggpht.com/aXRtwPwqQ8yYDZ6e8EtNX8h9U_vztz4VOkgLdFKa97EfIJfXnwghFwxw1Pex4Fvr7mGWNY1ccc69LFXv_A=w390-h540-nd" alt="logo" />
-					<a class="card-link" href="undertale.php">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Undertale</h2>
+						<h2 class="card-text">'.$row["a_name"].'</h2>
 					</div>
 					</a>
 				</div>
+				</div>';
+				}
+				?>
 		  
-		</div>
-	
+		 </div>
+		
 		<br>
 	</div>
  

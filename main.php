@@ -82,9 +82,9 @@
 		  <div class="col-lg-3">
 				<div class="card text-white">
 					<img class="card-img" src="../../tugas7-fp-ngr/content/icon_rythmn.svg" alt="Rhytmn" />
-					<a class="card-link" href="rhytmn">
+					<a class="card-link" href="rhythm">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Rhytmn Games</h2>
+						<h2 class="card-text">Rhythm Games</h2>
 					</div>
 					</a>
 				</div>

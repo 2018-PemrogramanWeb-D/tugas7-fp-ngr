@@ -30,34 +30,31 @@
 		<?php include '../navbar.php';?>
 	</nav>
 	<div class="container">
-
 		 <div class="page-header">
 			<h1>Platformer Game</h1>      
 		 </div>
-
 		<div class="row">
-				  <div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="https://hb.imgix.net/84e373244f1f3b435b896606021cc86faf782a81.jpg?auto=compress,format&fit=crop&h=353&w=616&s=37b0bd971833306030b263c71918f730" alt="Placeholder" />
-					<a class="card-link" href="shovelknighttt.php">
+			
+				<?php 
+				$sql = "select a_name,a_genre,a_img_link,a_link from articles where a_genre = 'Platformer'";
+				$content = $conn->query($sql);
+				while($row = $content->fetch_assoc())
+				{echo '<div class="col-lg-3"><div class="card text-white" >
+					<img class="card-img" src="'.$row["a_img_link"].'" alt="Placeholder" />
+					<a class="card-link" href="'.$row["a_link"].'">
 					<div class="card-img-overlay ovl">
-						<h2 class="card-text">shovel knight</h2>
+						<h2 class="card-text">'.$row["a_name"].'</h2>
 					</div>
 					</a>
+				</div>
+				</div>';
+				}
+				?>
+		  
+		 </div>
+		
+		<br>
 	</div>
-	</div>
-	<div class="col-lg-3">
-				<div class="card text-white">
-					<img class="card-img" src="http://info.sonicretro.org/images/thumb/3/37/Sonic1_box_jap.jpg/800px-Sonic1_box_jap.jpg" alt="Placeholder" />
-					<a class="card-link" href="sonic1.php">
-					<div class="card-img-overlay ovl">
-						<h2 class="card-text">Sonic1</h2>
-					</div>
-					</a>
-	</div>
-	</div>
-	</div>
-	 <br>
- </div>
+ 
 </body>
 </html>
